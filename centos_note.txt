@@ -1,0 +1,18 @@
+Centos双系统
+百度经验：https://jingyan.baidu.com/article/1709ad80b28cf74634c4f0d5.html
+注意事项：
+1、进去之后按Tab重新编辑回车进入安装的时候要再按ctrl+x才能进入图形安装界面
+2、安装完之后改的grub.cfg文件里边有一行 chainloader +1，“+1”是没有空格的，前面有空格
+
+图形界面和文字界面切换
+ctrl+alt+[F2~F6]
+图形界面是ctrl+alt+F1
+
+第四章：
+指令：
+    cal：日历，cal 2017
+    date：日期
+    bc：计算器，quit退出
+
+关键字：
+    ctrl+d：离开界面
