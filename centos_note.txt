@@ -4,6 +4,15 @@ Centos双系统
 1、进去之后按Tab重新编辑回车进入安装的时候要再按ctrl+x才能进入图形安装界面
 2、安装完之后改的grub.cfg文件里边有一行 chainloader +1，“+1”是没有空格的，前面有空格
 
+git
+另外一台电脑添加一个ssh
+http://blog.csdn.net/u014343528/article/details/48787221
+http://blog.csdn.net/jingtingfengguo/article/details/51892864
+出错的话就执行
+eval "$(ssh-agent -s)"
+ssh-add
+
+
 图形界面和文字界面切换
 ctrl+alt+[F2~F6]
 图形界面是ctrl+alt+F1
