@@ -6,9 +6,20 @@ Centos双系统
 
 git
 另外一台电脑添加一个ssh
-http://blog.csdn.net/u014343528/article/details/48787221
 http://blog.csdn.net/jingtingfengguo/article/details/51892864
 出错的话就执行
+eval "$(ssh-agent -s)"
+ssh-add
+具体做法如下：
+git config --global user.name "yourname"
+git config --global user.email“your@email.com"
+删除.ssh文件夹
+$ ssh-keygen -t rsa -C "your@email.com"
+重新生成ssh
+用记事本打开.ssh/id_rsa.pub
+在github.com登陆然后设置里边添加ssh，把文件里的内容全部丢进去
+再回到终端执行ssh -T git@github.com
+如果出错就
 eval "$(ssh-agent -s)"
 ssh-add
 
