@@ -5,6 +5,8 @@ Centos双系统
 2、安装完之后改的grub.cfg文件里边有一行 chainloader +1，“+1”是没有空格的，前面有空格
 
 git
+两台电脑用同个帐号同步
+http://blog.csdn.net/elloop/article/details/54898512
 另外一台电脑添加一个ssh
 http://blog.csdn.net/jingtingfengguo/article/details/51892864
 出错的话就执行
